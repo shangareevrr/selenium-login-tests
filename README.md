@@ -11,15 +11,16 @@ pip install -r requirements.txt
 
 
 selenium_test/
-conftest.py                 Фикстура браузера
-requirements.txt            Список библиотек
-README.md                   Эта инструкция
-pages/
-    login_page.py          модель логина
-    tests/
-        test_positive_login.py  Тест с правильными данными
-        test_negative_wrong_username.py  Тест: неправильный логин
-        test_negative_wrong_password.py  Тест: неправильный пароль
+├── conftest.py                 # Фикстура браузера
+├── requirements.txt            # Список библиотек
+├── README.md                   # Эта инструкция :)
+├── pages/
+│   └── login_page.py           # PageObject модель логина
+└── tests/
+    ├── test_positive_login.py  # Тест с правильными данными
+    ├── test_negative_wrong_username.py  # Тест: неправильный логин
+    └── test_negative_wrong_password.py  # Тест: неправильный пароль
+
 
 
 2. Запускаем тесты, предварительно CD до папки:
